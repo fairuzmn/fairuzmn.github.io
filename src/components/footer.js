@@ -105,24 +105,23 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <p>Special Thanks For</p>
-        <a href="https://github.com/bchiang7">
-          <div>Brittany Chiang</div>
+        {/* <a href="https://github.com/bchiang7">
+          <div>Brittany Chiang</div> */}
 
-          {githubInfo.stars && githubInfo.forks && (
-            <div></div>
-            // <div className="github-stats">
-            //   <span>
-            //     <Icon name="Star" />
-            //     <span>{githubInfo.stars.toLocaleString()}</span>
-            //   </span>
-            //   <span>
-            //     <Icon name="Fork" />
-            //     <span>{githubInfo.forks.toLocaleString()}</span>
-            //   </span>
-            // </div>
-          )}
-        </a>
+        {githubInfo.stars && githubInfo.forks && (
+          <div></div>
+          // <div className="github-stats">
+          //   <span>
+          //     <Icon name="Star" />
+          //     <span>{githubInfo.stars.toLocaleString()}</span>
+          //   </span>
+          //   <span>
+          //     <Icon name="Fork" />
+          //     <span>{githubInfo.forks.toLocaleString()}</span>
+          //   </span>
+          // </div>
+        )}
+        {/* </a> */}
       </StyledCredit>
     </StyledFooter>
   );

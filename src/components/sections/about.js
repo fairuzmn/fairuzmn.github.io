@@ -151,14 +151,14 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Fairuz and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2015 when I still in junior high school
-              decided to try creating simple static web application
+              interest in web development started back in 2015 when I was still in junior high
+              school, decided to try creating simple static web applications
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at <a>a start-up</a>. and{' '}
+              Fast-forward to today. I’ve had the privilege of working at <a>a start-up</a> and{' '}
               <a>a middle corporation</a>. My main focus these days is building web and mobile
-              applicatoin using modern stack technologies such especially{' '}
+              applications using modern stack technologies such especially{' '}
               <a href="https://www.w3schools.com/whatis/whatis_fullstack_js.asp">
                 Javascript Stack
               </a>{' '}
