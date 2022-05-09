@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Trashbank App'
-cover: './halcyon.png'
+cover: './trashbank_mock.jpg'
 # github: 'https://github.com/bchiang7/halcyon-site'
 # external: 'https://halcyon-theme.netlify.com/'
 tech:

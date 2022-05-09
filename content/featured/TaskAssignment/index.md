@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'Project & Task Assignment'
-cover: './demo.png'
+cover: './task_mock.jpg'
 # github: 'https://github.com/bchiang7/spotify-profile'
 # external: 'https://play.google.com/store/apps/details?id=biz.palugada.palugadamall'
 tech:

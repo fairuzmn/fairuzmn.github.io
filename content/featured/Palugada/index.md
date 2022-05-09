@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Palugada Mall'
-cover: './demo.png'
+cover: './palugada_mock.png'
 # github: 'https://github.com/bchiang7/spotify-profile'
 # external: 'https://play.google.com/store/apps/details?id=biz.palugada.palugadamall'
 cta: ''

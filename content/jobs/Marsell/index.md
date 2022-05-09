@@ -1,7 +1,7 @@
 ---
 date: '2022-12-12'
 title: 'Fullstack Developer ( Remote )'
-company: 'Marsell'
+company: 'Marsell Dev'
 location: 'Ponorogo, Indonesia'
 range: 'October 2021 - Present'
 url: '#'
