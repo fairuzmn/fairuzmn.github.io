@@ -162,8 +162,7 @@ const About = () => {
               <a href="https://www.w3schools.com/whatis/whatis_fullstack_js.asp">
                 Javascript Stack
               </a>{' '}
-              and
-              <a href="https://flutter.dev/">Flutter</a>
+              and <a href="https://flutter.dev/">Flutter</a>
             </p>
 
             <p>Here are a few technologies that I’m familiar with:</p>
