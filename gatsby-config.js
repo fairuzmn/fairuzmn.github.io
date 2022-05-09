@@ -1,13 +1,14 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: '/personal-page',
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Fairuz Minan Nafiz',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'Fairuz Minan Nafiz is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+    siteUrl: '', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@FairuzMinan',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
