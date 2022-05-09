@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-cb9a6ae8217ac34fce15.js"
+    "url": "webpack-runtime-8038f11da3d5a8354434.js"
   },
   {
     "url": "framework-aa35e29fbb74d6100667.js"
   },
   {
-    "url": "app-1fdf1c9b22f28a663d24.js"
+    "url": "app-ca43161df561cb221210.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "7cc974ae904b983550b926075dac37f1"
+    "revision": "61ad3d389d1f2f8fcd450e1c4d3e0710"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-50fcc746a3b9bd6c1224.js"
@@ -48,14 +48,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "dd4259fc59b44fd55fc2389ffe996c0c"
+    "revision": "a09461ac516a804ebc601565c2c8a005"
   },
   {
     "url": "polyfill-f4e05b864c9bf93fe2ca.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "ee12365fd341644cad6be558ace37ff5"
+    "revision": "4448cf64b4aea2b5f8daf055482a1acc"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -142,12 +142,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/personal-page`), ``)
+  pathname = pathname.replace(new RegExp(`^/fairuzmn.github.io`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/personal-page/app-1fdf1c9b22f28a663d24.js`))) {
+  if (!resources || !(await caches.match(`/fairuzmn.github.io/app-ca43161df561cb221210.js`))) {
     return await fetch(event.request)
   }
 
@@ -160,7 +160,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/personal-page/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/fairuzmn.github.io/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
