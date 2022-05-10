@@ -1,6 +1,6 @@
 ---
 date: '2019-03-01'
-title: 'Internship Web Developer'
+title: 'Web Developer Intern'
 company: 'Indoarta Citra Media'
 location: 'Surabaya, Indonesia'
 range: 'October 2018 - March 2019'
