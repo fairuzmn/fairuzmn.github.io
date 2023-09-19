@@ -130,6 +130,7 @@ const About = () => {
     'HTML',
     'CSS',
     'PHP',
+    'Laravel',
     'Yii2',
     'JS (ES6+)',
     'Node JS',

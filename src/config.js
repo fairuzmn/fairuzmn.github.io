@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/',
+      url: 'https://www.instagram.com/fairuzminan',
     },
     {
       name: 'Twitter',
@@ -16,7 +16,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/fairuz-minan-n-138402203',
+      url: 'https://www.linkedin.com/in/fairuz-minan-nafiz',
     },
     {
       name: 'Codepen',

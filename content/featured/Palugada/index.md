@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '4'
 title: 'Palugada Mall'
 cover: './palugada_mock.png'
 # github: 'https://github.com/bchiang7/spotify-profile'

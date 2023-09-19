@@ -71,8 +71,12 @@ const Hero = () => {
     <>
       <p>
         I’m an Indonesian based software developer specializing in building (and occasionally
-        designing) modern feel web & mobile application. Currently working as a Full Stack Developer
-        at <a href="#marsell">Marsell Dev</a>.
+        designing) modern feel web & mobile application. Currently working as a Laravel & Flutter
+        Developer at{' '}
+        <a href="https://punggawaindonesia.com/" target="_blank" rel="noreferrer">
+          Punggawa Digital Studio
+        </a>
+        .
       </p>
     </>
   );

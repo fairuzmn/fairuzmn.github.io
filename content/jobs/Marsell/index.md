@@ -1,9 +1,9 @@
 ---
-date: '2022-12-12'
+date: '2022-07-01'
 title: 'Fullstack Developer ( Remote )'
 company: 'Marsell Dev'
 location: 'Ponorogo, Indonesia'
-range: 'October 2021 - Present'
+range: 'October 2021 - July 2022'
 url: '#'
 ---
 
