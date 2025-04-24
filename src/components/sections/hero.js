@@ -71,17 +71,20 @@ const Hero = () => {
     <>
       <p>
         I’m an Indonesian based software developer specializing in building (and occasionally
-        designing) modern feel web & mobile application. Currently working as a Laravel & Flutter
+        designing) modern feel web & mobile application. Currently working as a Mobile Developer
         Developer at{' '}
-        <a href="https://punggawaindonesia.com/" target="_blank" rel="noreferrer">
-          Punggawa Digital Studio
+        <a
+          href="https://www.linkedin.com/company/pt-infosys-solusi-terpadu"
+          target="_blank"
+          rel="noreferrer">
+          Infosys Solusi Terpadu
         </a>
         .
       </p>
     </>
   );
   const five = (
-    <a className="email-link" href="/Resume_FairuzMinanNafiz.pdf" target="_blank" rel="noreferrer">
+    <a className="email-link" href="/Resume_Fairuz_Minan.pdf" target="_blank" rel="noreferrer">
       Download My Resume!
     </a>
   );

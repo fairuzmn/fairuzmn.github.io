@@ -179,6 +179,8 @@ const Jobs = () => {
               location
               range
               url
+              companyShort
+              jobType
             }
             html
           }
@@ -250,7 +252,7 @@ const Jobs = () => {
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
           {jobsData &&
             jobsData.map(({ node }, i) => {
-              const { company } = node.frontmatter;
+              const { companyShort } = node.frontmatter;
               return (
                 <StyledTabButton
                   key={i}
@@ -262,7 +264,7 @@ const Jobs = () => {
                   tabIndex={activeTabId === i ? '0' : '-1'}
                   aria-selected={activeTabId === i ? true : false}
                   aria-controls={`panel-${i}`}>
-                  <span>{company}</span>
+                  <span>{companyShort}</span>
                 </StyledTabButton>
               );
             })}
@@ -273,7 +275,7 @@ const Jobs = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, company, range } = frontmatter;
+              const { title, url, company, range, jobType } = frontmatter;
 
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
@@ -284,15 +286,17 @@ const Jobs = () => {
                     aria-labelledby={`tab-${i}`}
                     aria-hidden={activeTabId !== i}
                     hidden={activeTabId !== i}>
-                    <h3>
+                    <h2>
                       <span>{title}</span>
+                    </h2>
+                    <h5>
                       <span className="company">
-                        &nbsp;@&nbsp;
                         <a href={url} className="inline-link">
                           {company}
                         </a>
                       </span>
-                    </h3>
+                      <span> - {jobType}</span>
+                    </h5>
 
                     <p className="range">{range}</p>
 

@@ -1,13 +1,15 @@
 ---
-date: '2023-12-12'
+date: '2023-10-01'
 title: 'Fullstack Developer'
-company: 'Punggawa Studio'
+company: 'CV Punggawa Studio'
 location: 'Surabaya, Indonesia'
-range: 'January 2023 - Present'
+range: 'July 2022 - October 2023'
 url: 'https://punggawaindonesia.com/'
+companyShort: 'Punggawa'
+jobType: 'Remote'
 ---
 
-- Developed and shipped interactive web applications with Laravel Based
-- Developed and maintenaned Mobile Apps based on Flutter
-- Architected MySQL database with relationship standart
-- Project deployment on CPanel and other stuff
+- Developing and launching interactive web applications using the Laravel framework.
+- Creating and maintaining mobile apps built on the Flutter platform.
+- Architecting MySQL databases with a focus on adhering to industry-standard relationships for efficient data management.
+- Proficiently handling project deployments on various hosting environments, including CPanel.

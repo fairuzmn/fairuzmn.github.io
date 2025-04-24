@@ -127,19 +127,19 @@ const About = () => {
   }, []);
 
   const skills = [
-    'HTML',
-    'CSS',
+    'Flutter',
+    'Firebase',
+    'MySQL',
     'PHP',
     'Laravel',
     'Yii2',
+    'HTML',
+    'CSS',
     'JS (ES6+)',
     'Node JS',
-    'Flutter',
-    'Firebase',
     'Express JS',
     'Mongo DB',
     'React Native',
-    'MySQL',
   ];
 
   return (
@@ -150,19 +150,18 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Fairuz and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2015 when I was still in junior high
-              school, decided to try creating simple static web applications
+              Hello! I’m Fairuz, a passionate developer with a strong interest in building digital
+              products for the web and mobile platforms. My journey into web development began back
+              in 2015 during my junior high school years, when I first started experimenting with
+              simple static websites.
             </p>
 
             <p>
-              Fast-forward to today. I’ve had the privilege of working at <a>a start-up</a> and{' '}
-              <a>a middle corporation</a>. My main focus these days is building web and mobile
-              applications using modern stack technologies such especially{' '}
-              <a href="https://www.w3schools.com/whatis/whatis_fullstack_js.asp">
-                Javascript Stack
-              </a>{' '}
-              and <a href="https://flutter.dev/">Flutter</a>
+              Fast-forward to today, I specialize in building secure and scalable applications using
+              modern technologies. I’ve had the opportunity to work with both startups and mid-sized
+              companies, and currently, I’m working on a <a>mobile banking project</a> using{' '}
+              <a href="https://flutter.dev/">Flutter</a>. My goal is to deliver seamless and
+              reliable mobile experiences in the fintech space.
             </p>
 
             <p>Here are a few technologies that I’m familiar with:</p>
@@ -177,7 +176,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.png"
+              src="../../images/me-rev.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
