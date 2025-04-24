@@ -13,4 +13,4 @@ tech:
   - IOS
 ---
 
-hi by hibank is a digital banking app from PT Bank Hibank Indonesia, formerly PT Bank Mayora. After being acquired by BNI in May 2022, the bank rebranded to focus on digital financial solutions for MSMEs in Indonesia. The app provides smart tools, personalized features, and convenient banking access to help entrepreneurs grow and manage their businesses effectively.
+hi by hibank is a digital banking app from [PT Bank Hibank Indonesia](https://www.hibank.co.id/), formerly [PT Bank Mayora](https://www.hibank.co.id/news/pt-bank-mayora-officially-rebranding-to-pt-bank-hibank-indonesia). After being acquired by [BNI](https://www.bni.co.id/en-us/) in May 2022, the bank rebranded to focus on digital financial solutions for MSMEs in Indonesia. The app provides smart tools, personalized features, and convenient banking access to help entrepreneurs grow and manage their businesses effectively.
