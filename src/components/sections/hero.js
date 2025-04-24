@@ -70,16 +70,23 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m an Indonesian based software developer specializing in building (and occasionally
-        designing) modern feel web & mobile application. Currently working as a Mobile Developer
-        Developer at{' '}
+        I'm an Indonesia-based software developer with a focus on building modern, intuitive web and
+        mobile applications. Currently working as a Mobile Developer at{' '}
         <a
           href="https://www.linkedin.com/company/pt-infosys-solusi-terpadu"
           target="_blank"
           rel="noreferrer">
-          Infosys Solusi Terpadu
+          PT Infosys Solusi Terpadu
         </a>
-        .
+        . I have a strong interest in{' '}
+        <a href="https://en.wikipedia.org/wiki/Research_and_development">
+          Research and Development
+        </a>
+        , as well as{' '}
+        <a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">
+          Clean Architecture
+        </a>{' '}
+        principles.
       </p>
     </>
   );
